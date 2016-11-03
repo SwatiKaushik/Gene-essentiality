@@ -9,7 +9,7 @@ args <- commandArgs(TRUE)
 
 # print usage
 print.usage <- function(){
-	cat("Rscript XX.R [RNAi file] [Tumorname][outputFile]\n")
+	cat("Rscript Map-Essentiality.R [RNAi file] [Tumorname][outputFile]\n")
 	cat("Compares gene essentiality across tumor types\n")
 }
 
